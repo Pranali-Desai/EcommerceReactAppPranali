@@ -19,8 +19,8 @@ html {
 
 body {
   overflow-x: hidden;
-   scrollbar-color: rgb(98 84 243);
-    scrollbar-width: thin;
+  scrollbar-color: rgb(98 84 243);
+  scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
@@ -209,10 +209,12 @@ nav{
 
 .mobile-nav-icon {
    display: none;
+   color: white;
 }
 
 .mobile-nav-icon .close-outline{
    display: none;
+   color: white;
 }
 
 @media(max-width: ${({theme})=> theme.media.mobile})
