@@ -9,7 +9,7 @@ const Header = () => {
     return (
     <MainHeader>
         <NavLink to="/"> 
-             <img src="./images/eshop-logo.jpg" style={{ width: 150, height: 70, backgroundColor: "transparent" }} alt="logo"></img>
+            <h2>Saii Traders</h2>
         </NavLink>
         <Nav></Nav>
     </MainHeader>

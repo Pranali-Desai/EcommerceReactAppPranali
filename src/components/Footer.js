@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "./Button";
 import {FaDiscord} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import {FaYoutube} from "react-icons/fa";
@@ -24,7 +22,7 @@ iSIFGq{margin:0;}
 }
 
 footer{
-    padding:14rem 0 9rem 0;
+    padding:6rem 0 4rem 0;
     background-color:black;
 
 h3{
@@ -55,7 +53,7 @@ p{
 }
 
 .footer-bottom--section{
-    padding-top:9rem;
+    padding-top:1rem;
     hr{
         margin-bottom:2rem;
         color:${({ theme }) => theme.colors.hr};
@@ -67,37 +65,12 @@ p{
 const Footer = () => {
     return (
     <Wrapper>
-    <section className="contact-short">
-        <div className="grid grid-two-column">
-          <div>
-            <h3>Free Research </h3>
-            <h3>Preview ChatGPT</h3>
-          </div>
-          <div>
-            <Button>
-            <NavLink to="/contact">Get Started</NavLink>
-            </Button>
-          </div>
-        </div>
-    </section>
-
+    
     <footer>
         <div className="container grid grid-four-column">
             <div className="footer-about">
-               <h3>e Store React App</h3>
-               <p>React Ecommerce Website Tutorial</p>
-            </div>
-
-            <div className="footer-subscribe">
-                <h3>Subscribe to get updates</h3>
-                <form action="#">
-                    <input type="email" placeholder="Enter Email"/>      
-                    <h3> </h3>            
-                    <Button>
-                        Subscribe
-                    </Button>
-                </form>
-            </div>
+               <h3>Saii Traders</h3>
+            </div>   
 
             <div className="footer-social">
                  <h3>Follow us</h3>
@@ -118,13 +91,13 @@ const Footer = () => {
 
             <div className="footer-contact">
                 <h3>Call us</h3>
-                <a href="tel:789562358">+91 789562358</a>
+                <h3>+91 09892106103</h3>
             </div>
 
             <div className="footer-bottom--section">
                 <hr/>
                 <div className="container grid grid-two-column">
-                    <p>@{new Date().getFullYear()} React All Rights Reserved</p>
+                    <p>@{new Date().getFullYear()} All Rights Reserved By Saii Traders</p>
                     <div>
                         <p>PRIVECY POLICY</p>
                         <p>TERMS AND CONDITIONS</p>

@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "./Button";
+//import { Button } from "./Button";
 
 const Wrapper = styled.section` 
 padding : 12rem 0;
@@ -70,21 +70,19 @@ height: auto;
 
 const HeroSection = ({myData}) => {
 
-    const {name} = myData;
+    //const {name} = myData;
 
     return <Wrapper>
     <div className="container">
         <div className="grid grid-two-column">
          <div className="hero-section-data">
-            <h2> Welcome to {name}</h2>       
-            <p></p>
-            <NavLink>
-                <Button>shop now</Button>
-            </NavLink>
+            <p></p>    
+            <h2> Welcome to Saii Traders</h2>       
+            <p></p>          
          </div>
          <div className="hero-section-image">
             <figure>
-                <img src="images/HomeImage.jpg" alt="hero-section" className="img-style"></img>
+                <img src="images/JK-Cement.jpg" alt="hero-section" className="img-style"></img>
             </figure>
          </div>
         </div>

@@ -1,11 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
-import Products from "./components/Products";
+import Bill from "./components/Bill";
 import Contact from "./components/Contact";
-import SingleProduct from "./components/SingleProduct";
-import Cart from "./components/Cart";
 import Error from "./components/Error";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
@@ -38,11 +35,8 @@ const App = () => {
             <Header/>
             <Routes>
                         <Route path="/" element={<Home/>}></Route>
-                        <Route path="/About" element={<About/>}></Route>
-                        <Route path="/Products" element={<Products/>}></Route>
-                        <Route path="/SingleProduct/:id" element={<SingleProduct/>}></Route>
+                        <Route path="/Bill" element={<Bill/>}></Route>
                         <Route path="/Contact" element={<Contact></Contact>}></Route>
-                        <Route path="/Cart" element={<Cart></Cart>}></Route>
                         <Route path="*" element={<Error></Error>}></Route>
             </Routes>
             <Footer/>

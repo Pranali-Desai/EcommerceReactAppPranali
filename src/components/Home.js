@@ -4,7 +4,7 @@ import Trusted from "./Trusted";
 
 const Home = () => {
 
-   const data = { name : "E-Shop"};
+   const data = { name : "Saii Traders"};
 
     return <>
       <HeroSection myData={data}/>

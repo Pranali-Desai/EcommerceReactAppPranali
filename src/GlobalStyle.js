@@ -19,8 +19,8 @@ html {
 
 body {
   overflow-x: hidden;
-   scrollbar-color: rgb(98 84 243);
-    scrollbar-width: thin;
+  scrollbar-color: rgb(98 84 243);
+  scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
@@ -68,9 +68,9 @@ h3 {
 
 p, button {
   color: ${({ theme }) => theme.colors.text};
-  font-size: 1.65rem;
-  line-height: 1.5;
-  font-weight:400;
+  font-size: 1.4rem;
+  line-height: 1.0;
+  font-weight:300;
 }
 
 a {
@@ -209,10 +209,12 @@ nav{
 
 .mobile-nav-icon {
    display: none;
+   color: white;
 }
 
 .mobile-nav-icon .close-outline{
    display: none;
+   color: white;
 }
 
 @media(max-width: ${({theme})=> theme.media.mobile})

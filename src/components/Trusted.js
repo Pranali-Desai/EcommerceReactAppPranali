@@ -1,5 +1,5 @@
 const Trusted = () => {
-    return <div>Trusted</div>;
+    return <div></div>;
  };
  
  export default Trusted;
