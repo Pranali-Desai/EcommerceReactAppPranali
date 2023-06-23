@@ -8,6 +8,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import MyPDF from "./components/MyPDF";
 
 const App = () => { 
 
@@ -37,6 +38,11 @@ const App = () => {
                         <Route path="/" element={<Home/>}></Route>
                         <Route path="/Bill" element={<Bill/>}></Route>
                         <Route path="/Contact" element={<Contact></Contact>}></Route>
+<<<<<<< HEAD
+=======
+                        <Route path="/Cart" element={<Cart></Cart>}></Route>
+                        <Route path="/MyPDF" element={<MyPDF></MyPDF>}></Route>
+>>>>>>> bbad8672f748798df749975d65a80bf2266aac24
                         <Route path="*" element={<Error></Error>}></Route>
             </Routes>
             <Footer/>

@@ -9,8 +9,11 @@ class MyPDF extends React.Component {
         this.state ={}
     };
     generatePDF = () => {
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bbad8672f748798df749975d65a80bf2266aac24
       var doc = new jsPDF('p', 'pt');
       
       doc.text(20, 20, 'This is the first title.')
@@ -22,8 +25,13 @@ class MyPDF extends React.Component {
     }   
     
    render() {
+<<<<<<< HEAD
       return (      
          <button onClick={this.generatePDF} type="primary"><Button> PDF </Button></button>          
+=======
+      return (
+         <button onClick={this.generatePDF} type="primary"><Button>Download PDF</Button></button>          
+>>>>>>> bbad8672f748798df749975d65a80bf2266aac24
       );
    }
 }

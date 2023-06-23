@@ -21,6 +21,9 @@ return <Nav>
             <NavLink to="/Bill" className="navbar-link Product-link" onClick={() => setMenuIcon(false)}>Bill</NavLink>
         </li>      
         <li>
+            <NavLink to="/MyPDF" className="navbar-link Product-link" onClick={() => setMenuIcon(false)}>PDF</NavLink>
+        </li>
+        <li>
         <NavLink to="/" className="navbar-link Login-link" onClick={() => setMenuIcon(false)}>
             <Button>Login</Button>
         </NavLink>
